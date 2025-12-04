@@ -85,11 +85,11 @@ Each day's solution follows a consistent pattern:
 def solve_part1(lines):
     """Solve part 1 of the challenge"""
     # Implementation here
-    
+
 def solve_part2(lines):
     """Solve part 2 of the challenge"""
     # Implementation here
-    
+
 def main():
     """Read input and run both parts"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -114,20 +114,13 @@ def main():
 3. **Implement the solution:**
    - Edit `main.py`
    - Implement `solve_part1()` function
-   - Test with `test.txt` first
+   - Test with `test.txt` first. Add the example from the question description so that you can verify correctness.
    - Implement `solve_part2()` function
 
 4. **Run and verify:**
    ```bash
    python3 main.py
    ```
-
-## Solutions Overview
-
-- **Day 01**: Dial rotation with modular arithmetic
-- **Day 02**: ID validation with pattern matching  
-- **Day 03**: Finding largest numbers from digit sequences
-- **Day 04**: Grid-based cellular automaton using NumPy
 
 ## Dependencies
 

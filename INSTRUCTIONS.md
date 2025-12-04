@@ -98,13 +98,6 @@ with open(os.path.join(script_dir, "input.txt"), "r") as f:
 ### Switching to Test Input
 Change `"input.txt"` to `"test.txt"` in the open statement.
 
-### Example Solutions Summary
-
-- **Day01**: Dial rotation problem (modular arithmetic)
-- **Day02**: ID validation with pattern matching
-- **Day03**: Finding largest numbers from digit sequences
-- **Day04**: Grid-based cellular automaton using NumPy
-
 ## Important Notes
 
 - Each day's solution is independent and self-contained
