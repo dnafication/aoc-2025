@@ -90,7 +90,8 @@ python3 main.py  # Currently just prints a hello message
 import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-with open(os.path.join(script_dir, "input.txt"), "r", encoding="utf-8") as f:
+# encoding="utf-8" is optional but recommended (used in template)
+with open(os.path.join(script_dir, "input.txt"), "r") as f:
     lines = f.readlines()
 ```
 
