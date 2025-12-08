@@ -11,8 +11,8 @@ def solve_part2(lines):
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    # Replace with text.txt for testing with smaller input
-    with open(os.path.join(script_dir, "input.txt"), "r", encoding="utf-8") as f:
+    # Replace with test.txt for testing with smaller input
+    with open(os.path.join(script_dir, "test.txt"), "r", encoding="utf-8") as f:
         lines = f.readlines()
         solve_part1(lines)
         solve_part2(lines)
